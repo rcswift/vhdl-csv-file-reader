@@ -117,6 +117,7 @@ package body csv_file_reader_pkg is
                 end if;
                 read(current_line, read_char, read_ok);
             end loop;
+          return return_string;
         end;
     end protected body;
 
